@@ -2876,7 +2876,7 @@ footer .copyrights p {
   background-color: var(--light-color);
 }
 .single-product .contain .button-contain .custom-btn span {
-  color: var(--dark-color);
+  color: var(--light-color);
   font-size: 15px;
   font-weight: 500;
 }
@@ -2922,7 +2922,7 @@ footer .copyrights p {
 }
 .single-product .prodcutDetailsSwiper .swiper-slide {
   width: 100%;
-  height: 280px;
+  height: 400px;
 }
 .single-product .prodcutDetailsSwiper .swiper-slide img {
   width: 100% !important;
@@ -3041,6 +3041,27 @@ footer .copyrights p {
   font-weight: 500;
   vertical-align: middle;
   text-align: center;
+}
+.single-product .table-responsive table td .table-img {
+  width: 120px;
+  height: 120px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.single-product .table-responsive table td .delete {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  margin: auto;
+}
+.single-product .table-responsive table td .delete img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 .single-product .table-responsive table td.border-end {
   -webkit-border-end: 1px solid rgba(128, 128, 128, 0.1);
@@ -4030,7 +4051,7 @@ footer .copyrights p {
   justify-content: center;
 }
 .order-reservation .order-data .list li .custom-btn span {
-  color: var(--dark-color);
+  color: var(--light-color);
   font-size: 15px;
   font-weight: 500;
 }
